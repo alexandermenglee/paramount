@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: #000c35;
+  min-height:80px;
+}
+
+.jumbotron{
+  border-radius: 0;
+  width: 100%;
+  min-height: 705px;
+  background-image: url("https://images.pexels.com/photos/755028/pexels-photo-755028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+.parallax{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 750px) {
+  .jumbotron {
+    min-height: 75%;
+  }
+
+  .jumbotron p{
+    color: white;
+  }
+}
+
+.center{
+  margin: auto;
+    width: 50%;
+}
+
+nav .navbar-brand{
+  color: white;
+}
+
+nav .nav-link{
+  color: white;
+}
+
+/* h2 a[href^="tel"] {
+  color: #000c35;
+} */
+
+h1{
+  color: #000c35;
+}
+
+h4, .lead{
+  color: #000c35;
+}
+
+footer{
+  color: white;
+  background-color: #000c35;
+  height: 20%;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer #map{
+  width: 300px;
+  height: 280px;
+}
+
+footer h5{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+footer p:nth-child(2){
+  padding-top: 20px;
+}
+
+footer hr{
+  background-color: white;
+  width: 40%;
+}
+
+ul i{
+  margin-right: 30px;
+}
+
+ul a{
+  color: white;
+}
+
+ul a:hover{
+  color: silver;
+}
+
+footer #footer-nav{
+  display: inline-block;
+}
+
+footer #footer-nav li{
+  list-style: none;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 5px;
+}
+
+ footer #soc_med{
+  display: inline-block;
+}
+
+footer #soc_med li{
+  list-style: none;
+  float: left;
+  margin-right: 15px;
+}
+
+#contact-form-header{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#contact-form{
+  margin: 5% auto;
+  width: 50%;
+}
