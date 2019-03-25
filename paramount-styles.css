@@ -20,6 +20,11 @@
   background-repeat: no-repeat;
 }
 
+#contact-submit {
+  background-color: #000c35;
+  border-color: #000c35;
+}
+
 @media screen and (max-width: 750px) {
   .jumbotron {
     min-height: 75%;
