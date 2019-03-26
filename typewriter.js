@@ -1,12 +1,18 @@
 // Typewriting effect
-let i = 0,
-  txt = 'Caring for you at the comfort of your own home.',
-  speed = 40;
-
 function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById('typewriter').innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
+  var i = 0,
+  txt = 'Healthcare at your doorstep',
+  speed = 40,
+  typed = document.getElementById('typewriter');
+
+  (function addChar() {
+    if (i < txt.length) {
+      typed.innerHTML += txt.charAt(i);
+      i++;
+      console.log(i);
+      setTimeout(addChar, speed);
+    }
+  })();
+} 
+
+document.onload = typeWriter();
